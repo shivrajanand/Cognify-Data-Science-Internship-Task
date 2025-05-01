@@ -85,3 +85,57 @@ Each task is documented with appropriate code, visualizations, and insights in s
         ne_110m_admin_0_countries.shp
         ne_110m_admin_0_countries.shx
         ne_110m_admin_0_countries.VERSION.txt
+
+```
+---
+
+## 📣 How to Run This Project
+
+Follow these steps to set up and run the project locally:
+
+1. **Install Python 3.10.11**  
+   Make sure Python is installed and added to your system's PATH. You can download it from [python.org](https://www.python.org/downloads/release/python-31011/).
+
+2. **Clone the Repository**
+
+```bash
+git clone https://github.com/shivrajanand/Cognify-Data-Science-Internship-Task.git
+```
+
+3. **Navigate to the Project Directory**
+
+```bash
+cd Cognify-Data-Science-Internship-Task
+```
+
+4. **Create a Virtual Environment**
+
+```bash
+python -m venv myenv
+```
+
+5. **Activate the Virtual Environment (Windows)**
+
+```bash
+.\myenv\Scripts\activate
+```
+Note for Mac/Linux users:
+Use the following command instead:
+```bash
+source myenv/bin/activate
+```
+
+6. **Install Required Libraries**
+```bash
+pip install -r requirements.txt
+```
+
+7. **Run Jupyter Notebooks in the Following Order:**
+
+        level1.ipynb
+
+        level2.ipynb
+
+        Level3Preprocessing.ipynb
+
+        level3.ipynb
